@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    text-align: center;
+}
+
+.fundo{
+   background-image: url(../img/local-the-last-of-us.jpg);
+   background-position: center;
+   height: 100vh;
+   
+}
+
+.titulo{
+    color: #59483e;
+
+}
+
+.curiosidades{
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.descricao{
+    color:#ffffff;
+    font-family:Arial, 'Times New Roman', Times, serif;
+    height: 50px;
+
+}
+
+.imagem{
+    border-radius: 15px;
+}
+.imagem:hover{
+    box-shadow: 5px 5px 5px 5px rgba(0 , 0 , 0 , 0.5);
+}
+
+.botao{
+    background-color: rgba(37,32,0,0.7);
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 15px;
+    font-family: Arial, Helvetica;
+}
+.botao:hover{
+    background-color: rgba(37,32,0);
+}
